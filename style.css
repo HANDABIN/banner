@@ -47,11 +47,13 @@
     font-size: 14px;
     animation-name: btn;
     animation-duration: 3s;
+
     border: #fff;
   }
   
   @keyframes btn{
     0%{
+      opacity: 0;
        margin-left: 338px;
     }
     10%{   
@@ -74,7 +76,8 @@
     0%{
        
     }
-    50%{
+    0%{
+       opacity: 0;
         margin-right: 338px;
     }
     100%{
